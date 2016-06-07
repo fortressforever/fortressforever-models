@@ -25,17 +25,54 @@ IF NOT EXIST "%GameDir%" (
 )
 
 set Ep1BinDir=%sourcesdk%\bin\ep1\bin
+set GameConfigFile=%Ep1BinDir%\GameConfig.txt
 set SteamConfigFile=%SteamPath%\config\SteamAppData.vdf
 set Ep1ConfigDir=%Ep1BinDir%\config
 set Ep1ConfigFile=%Ep1ConfigDir%\SteamAppData.vdf
-set GameInfoDir=%GameDir%/sdk
-set GameInfoFile=%GameInfoDir%/gameinfo.txt
+set GameInfoDir=%GameDir%\sdk
+set GameInfoFile=%GameInfoDir%\gameinfo.txt
 
 IF NOT EXIST "%SteamConfigFile%" (
 	echo "%SteamConfigFile%" does not exist. Try launching Steam
 	pause
 	exit /B
 )
+
+echo(
+echo Writing "%GameConfigFile%"...
+(
+echo "Configs"
+echo {
+echo 	"SDKVersion"		"2"
+echo 	"Games"
+echo 	{
+echo 		"Fortress Forever"
+echo 		{
+echo 			"GameDir"		"%GameDir%/sdk"
+echo 			"hammer"
+echo 			{
+echo 				"GameData0"		"%ModDir%/fortressforever.fgd"
+echo 				"TextureFormat"		"5"
+echo 				"MapFormat"		"4"
+echo 				"DefaultTextureScale"		"0.250000"
+echo 				"DefaultLightmapScale"		"16"
+echo 				"GameExe"		"%GameDir%/hl2.exe"
+echo 				"DefaultSolidEntity"		"func_detail"
+echo 				"DefaultPointEntity"		"info_ff_script"
+echo 				"BSP"		"%Ep1BinDir%\vbsp.exe"
+echo 				"Vis"		"%Ep1BinDir%\vvis.exe"
+echo 				"Light"		"%Ep1BinDir%\vrad.exe"
+echo 				"GameExeDir"		"%GameDir%"
+echo 				"MapDir"		"%ModDir%/mapsrc"
+echo 				"BSPDir"		"%ModDir%/maps"
+echo 				"CordonTexture"		"tools\toolsskybox"
+echo 				"MaterialExcludeCount"		"0"
+echo 			}
+echo 		}
+echo 	}
+echo }
+) >"%GameConfigFile%"
+echo  -^> Done
 
 IF NOT EXIST "%GameInfoDir%" mkdir "%GameInfoDir%"
 echo(
