@@ -24,7 +24,7 @@ Example commands to compile the tranquilizer viewmodel:
 
 ```
 cd weapons/tranq/viewmodel
-%SourceSDK%/bin/ep1/bin/studiomdl v_tranq.qc
+"%SourceSDK%/bin/ep1/bin/studiomdl" v_tranq.qc
 ```
 
 Assuming you followed the setup instructions above, the compiled models will be output into the `Steam/steamapps/common/Fortress Forever/sdk` directory (**not** into the main mod directory), so you'll need to copy the newly compiled files into `Steam/steamapps/common/Fortress Forever/FortressForever`
