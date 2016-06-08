@@ -109,7 +109,9 @@ $ikchain lfoot "ffSkel_LeftFoot" Z 0 knee 0.707 0.707 0
 //$ikchain rhand "ffSkel_RightHand" Z 0 knee 0.707 0.707 0
 //$ikchain lhand "ffSkel_LeftHand" Z 0 knee 0.707 0.707 0
 
+$weightlist armsonly "ffSkel_LeftShoulder" 1.0 "ffSkel_RightShoulder" 1.0 "ffSkel_Hips" 0.0 "ffSkel_LeftUpLeg" 0.0 "ffSkel_RightUpLeg" 0.0 
 $weightlist upperbody "ffSkel_Spine" 1.0 "ffSkel_Hips" 0.0 "ffSkel_LeftUpLeg" 0.0 "ffSkel_RightUpLeg" 0.0 
+$weightlist upperbodynoarms "ffSkel_LeftShoulder" 0.0 "ffSkel_RightShoulder" 0.0 "ffSkel_Spine" 1.0 "ffSkel_Hips" 0.0 "ffSkel_LeftUpLeg" 0.0 "ffSkel_RightUpLeg" 0.0 
 $weightlist nolowerbody "ffSkel_Hips" 1.0 "ffSkel_LeftUpLeg" 0.0 "ffSkel_RightUpLeg" 0.0 
 $weightlist lowerbody "ffSkel_Hips" 1.0 "ffSkel_Spine" 0.0
 
@@ -367,7 +369,7 @@ $poseparameter "body_yaw" -90 90 loop 360
 
 		$sequence Idle_Upper_shotgun "shotgun/idle_shotgun" FPS 30 weightlist upperbody addlayer Run_Aim_shotgun
 		$sequence Walk_Upper_shotgun "shotgun/walk_shotgun" FPS 30 weightlist upperbody addlayer Run_Aim_shotgun
-		$sequence Run_Upper_shotgun "shotgun/run_shotgun" FPS 30 startloop 0 weightlist upperbody addlayer Run_Aim_shotgun
+		$sequence Run_Upper_shotgun "shotgun/run_shotgun" FPS 30 weightlist upperbody addlayer Run_Aim_shotgun
 		$sequence Crouch_Idle_Upper_shotgun "shotgun/crouch_idle_shotgun" FPS 30 weightlist upperbody addlayer Crouch_Aim_shotgun
 		$sequence Crouch_Walk_Upper_shotgun "shotgun/crouch_walk_shotgun" FPS 30 weightlist upperbody addlayer Crouch_Aim_shotgun
 
