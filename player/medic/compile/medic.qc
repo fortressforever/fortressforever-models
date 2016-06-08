@@ -1,4 +1,5 @@
 $modelname "player/medic/medic.mdl"
+$cd ".."
 //$model studio "/reference/medic_reference.smd"
 $bodygroup torso
 {

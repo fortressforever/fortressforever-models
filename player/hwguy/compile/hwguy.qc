@@ -1,4 +1,4 @@
-$cd "E:\3D\FF\ff_models\charpipeline\ff\hwguy"
+$cd ".."
 
 $modelname "player/hwguy/hwguy.mdl"
 //$model studio "/reference/hwguy_reference.smd"

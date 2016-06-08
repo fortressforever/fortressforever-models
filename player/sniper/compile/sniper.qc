@@ -1,4 +1,4 @@
-$cd "E:\3D\FF\ff_models\charpipeline\ff\sniper"
+$cd ".."
 
 $modelname "player/sniper/sniper.mdl"
 //$model studio "/reference/sniper_reference.smd"

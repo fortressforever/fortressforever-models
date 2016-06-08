@@ -1,4 +1,4 @@
-$cd "E:\3D\FF\ff_models\charpipeline\ff\spy"
+$cd ".."
 
 $modelname "player/spy/spy.mdl"
 //$model studio "/reference/spy_reference.smd"

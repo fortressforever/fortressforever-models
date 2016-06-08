@@ -1,4 +1,4 @@
-$cd "E:\3D\FF\ff_models\charpipeline\ff\pyro"
+$cd ".."
 
 $modelname "player/pyro/pyro.mdl"
 //$model studio "/reference/pyro_reference.smd"

@@ -1,4 +1,4 @@
-$cd "E:\3D\FF\ff_models\charpipeline\ff\engineer"
+$cd ".."
 $modelname "player/engineer/engineer.mdl"
 //$model studio "/reference/engineer_reference.smd"
 $bodygroup torso

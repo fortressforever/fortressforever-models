@@ -1,4 +1,4 @@
-$cd "E:\3D\FF\ff_models\charpipeline\ff\president"
+$cd ".."
 
 $modelname "player/civilian/civilian.mdl"
 //$model studio "/reference/civilian_reference.smd"

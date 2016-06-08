@@ -1,9 +1,0 @@
-$attachment "eyes" "ffSkel_Heads" 5.00 0.00 0.05 rotate 0 -20 -90
-$attachment "mouth" "ffSkel_Heads" 0.30 -5.70 -0.00 rotate 0.00 -80.00 -90.00
-$attachment "chest" "ffSkel_Spine2" 5.00 4.00 -0.00 rotate -0.00 90.00 90.00
-$attachment "helmet_attachment" "ffSkel_Heads" 2.66 -1.60 -0.00 rotate 0.00 -82.95 -90.00
-//$attachment "faceplate_attachment" "ValveBiped.faceplate_attachment" 0.00 -0.00 0.00 rotate -90.00 -90.00 0.00
-//$attachment "forward" "ValveBiped.forward" 0.00 0.00 0.00 rotate 0.00 0.00 -0.00
-//$attachment "anim_attachment_RH" "ValveBiped.Anim_Attachment_RH" -0.00 -0.00 -0.00 rotate -90.00 -90.00 0.00
-//$attachment "anim_attachment_LH" "ValveBiped.Anim_Attachment_LH" -0.00 -0.00 0.00 rotate -90.00 -90.00 0.00
-$attachment "anim_attachment_head" "ffSkel_Heads" -0.00 0.00 0.00 rotate -90.00 -90.00 0.00

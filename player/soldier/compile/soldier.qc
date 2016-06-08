@@ -1,4 +1,4 @@
-$cd "D:\ff-svn\models\charpipeline\ff\soldier"
+$cd ".."
 $modelname "player/soldier/soldier.mdl"
 //$model studio "/reference/soldier_reference.smd"
 $bodygroup torso

@@ -1,4 +1,4 @@
-$cd "D:\ff-svn\models\charpipeline\ff\demoman"
+$cd ".."
 $modelname "player/demoman/demoman.mdl"
 //$model studio "/reference/demoman_reference.smd"
 $bodygroup torso
