@@ -1,0 +1,454 @@
+// Created by Crowbar 0.24.0.0
+
+Compiling...
+
+qdir:    "c:\users\willwow_mc\documents\github\fortressforever-models\player\ff_player_shared\compile\"
+gamedir: "C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\"
+g_path:  "ff_player_shared"
+Working on "ff_player_shared.qc"
+SMD MODEL ../ragdoll.smd
+SMD MODEL ../ragdoll_i.smd
+SMD MODEL ../ragdoll_r.smd
+SMD MODEL ../ragdoll_w.smd
+SMD MODEL ../ragdoll_cw.smd
+SMD MODEL ../ragdoll_cwi.smd
+SMD MODEL ../ragdoll_si.smd
+SMD MODEL ../Idle01.smd
+SMD MODEL ../Crouch_idle01.smd
+SMD MODEL ../Swim_idle01.smd
+SMD MODEL ../RunS.smd
+SMD MODEL ../RunSE.smd
+SMD MODEL ../RunE.smd
+SMD MODEL ../RunNE.smd
+SMD MODEL ../RunN.smd
+SMD MODEL ../RunNW.smd
+SMD MODEL ../RunW.smd
+SMD MODEL ../RunSW.smd
+SMD MODEL ../9run_idle.smd
+SMD MODEL ../WalkS.smd
+SMD MODEL ../WalkSE.smd
+SMD MODEL ../WalkE.smd
+SMD MODEL ../WalkNE.smd
+SMD MODEL ../WalkN.smd
+SMD MODEL ../WalkNW.smd
+SMD MODEL ../WalkW.smd
+SMD MODEL ../WalkSW.smd
+SMD MODEL ../9walk_idle.smd
+SMD MODEL ../Crouch_walkS.smd
+SMD MODEL ../Crouch_walkSE.smd
+SMD MODEL ../Crouch_walkE.smd
+SMD MODEL ../Crouch_walkNE.smd
+SMD MODEL ../Crouch_walkN.smd
+SMD MODEL ../Crouch_walkNW.smd
+SMD MODEL ../Crouch_walkW.smd
+SMD MODEL ../Crouch_walkSW.smd
+SMD MODEL ../9Crouch_Walk_idle.smd
+SMD MODEL ../SwimS.smd
+SMD MODEL ../SwimSE.smd
+SMD MODEL ../SwimE.smd
+SMD MODEL ../SwimNE.smd
+SMD MODEL ../SwimN.smd
+SMD MODEL ../SwimNW.smd
+SMD MODEL ../SwimW.smd
+SMD MODEL ../SwimSW.smd
+SMD MODEL ../9Swim_idle.smd
+SMD MODEL ../jump.smd
+SMD MODEL ../shotgun/jump_shotgun.smd
+SMD MODEL ../shotgun/swim_9aims_shotgun.smd
+SMD MODEL ../shotgun/crouch_9aims_shotgun.smd
+SMD MODEL ../shotgun/run_9aims_shotgun.smd
+SMD MODEL ../shotgun/idle_shotgun.smd
+SMD MODEL ../shotgun/walk_shotgun.smd
+SMD MODEL ../shotgun/run_shotgun.smd
+SMD MODEL ../shotgun/crouch_idle_shotgun.smd
+SMD MODEL ../shotgun/crouch_walk_shotgun.smd
+SMD MODEL ../shotgun/shoot_shotgun.smd
+SMD MODEL ../shotgun/swim_idle_shotgun.smd
+SMD MODEL ../shotgun/swim_shoot_shotgun.smd
+SMD MODEL ../shotgun/swim_shotgun.smd
+SMD MODEL ../shotgun/reload_shotgun.smd
+SMD MODEL ../supershotgun/jump_supershotgun.smd
+SMD MODEL ../supershotgun/swim_9aims_supershotgun.smd
+SMD MODEL ../supershotgun/crouch_9aims_supershotgun.smd
+SMD MODEL ../supershotgun/run_9aims_supershotgun.smd
+SMD MODEL ../supershotgun/idle_supershotgun.smd
+SMD MODEL ../supershotgun/walk_supershotgun.smd
+SMD MODEL ../supershotgun/run_supershotgun.smd
+SMD MODEL ../supershotgun/crouch_idle_supershotgun.smd
+SMD MODEL ../supershotgun/crouch_walk_supershotgun.smd
+SMD MODEL ../supershotgun/shoot_supershotgun.smd
+SMD MODEL ../supershotgun/swim_idle_supershotgun.smd
+SMD MODEL ../supershotgun/swim_shoot_supershotgun.smd
+SMD MODEL ../supershotgun/swim_supershotgun.smd
+SMD MODEL ../supershotgun/reload_supershotgun.smd
+SMD MODEL ../grenadelauncher/jump_grenadelauncher.smd
+SMD MODEL ../grenadelauncher/swim_9aims_grenadelauncher.smd
+SMD MODEL ../grenadelauncher/crouch_9aims_grenadelauncher.smd
+SMD MODEL ../grenadelauncher/run_9aims_grenadelauncher.smd
+SMD MODEL ../grenadelauncher/idle_grenadelauncher.smd
+SMD MODEL ../grenadelauncher/walk_grenadelauncher.smd
+SMD MODEL ../grenadelauncher/run_grenadelauncher.smd
+SMD MODEL ../grenadelauncher/crouch_idle_grenadelauncher.smd
+SMD MODEL ../grenadelauncher/crouch_walk_grenadelauncher.smd
+SMD MODEL ../grenadelauncher/shoot_grenadelauncher.smd
+SMD MODEL ../grenadelauncher/swim_idle_grenadelauncher.smd
+SMD MODEL ../grenadelauncher/swim_shoot_grenadelauncher.smd
+SMD MODEL ../grenadelauncher/swim_grenadelauncher.smd
+SMD MODEL ../grenadelauncher/reload_grenadelauncher.smd
+SMD MODEL ../nailgun/jump_nailgun.smd
+SMD MODEL ../nailgun/swim_9aims_nailgun.smd
+SMD MODEL ../nailgun/crouch_9aims_nailgun.smd
+SMD MODEL ../nailgun/run_9aims_nailgun.smd
+SMD MODEL ../nailgun/idle_nailgun.smd
+SMD MODEL ../nailgun/walk_nailgun.smd
+SMD MODEL ../nailgun/run_nailgun.smd
+SMD MODEL ../nailgun/crouch_idle_nailgun.smd
+SMD MODEL ../nailgun/crouch_walk_nailgun.smd
+SMD MODEL ../nailgun/shoot_nailgun.smd
+SMD MODEL ../nailgun/swim_idle_nailgun.smd
+SMD MODEL ../nailgun/swim_shoot_nailgun.smd
+SMD MODEL ../nailgun/swim_nailgun.smd
+SMD MODEL ../nailgun/reload_nailgun.smd
+SMD MODEL ../supernailgun/jump_supernailgun.smd
+SMD MODEL ../supernailgun/swim_9aims_supernailgun.smd
+SMD MODEL ../supernailgun/crouch_9aims_supernailgun.smd
+SMD MODEL ../supernailgun/run_9aims_supernailgun.smd
+SMD MODEL ../supernailgun/idle_supernailgun.smd
+SMD MODEL ../supernailgun/walk_supernailgun.smd
+SMD MODEL ../supernailgun/run_supernailgun.smd
+SMD MODEL ../supernailgun/crouch_idle_supernailgun.smd
+SMD MODEL ../supernailgun/crouch_walk_supernailgun.smd
+SMD MODEL ../supernailgun/shoot_supernailgun.smd
+SMD MODEL ../supernailgun/swim_idle_supernailgun.smd
+SMD MODEL ../supernailgun/swim_shoot_supernailgun.smd
+SMD MODEL ../supernailgun/swim_supernailgun.smd
+SMD MODEL ../supernailgun/reload_supernailgun.smd
+SMD MODEL ../railgun/jump_railgun.smd
+SMD MODEL ../railgun/swim_9aims_railgun.smd
+SMD MODEL ../railgun/crouch_9aims_railgun.smd
+SMD MODEL ../railgun/run_9aims_railgun.smd
+SMD MODEL ../railgun/idle_railgun.smd
+SMD MODEL ../railgun/walk_railgun.smd
+SMD MODEL ../railgun/run_railgun.smd
+SMD MODEL ../railgun/crouch_idle_railgun.smd
+SMD MODEL ../railgun/crouch_walk_railgun.smd
+SMD MODEL ../railgun/shoot_railgun.smd
+SMD MODEL ../railgun/swim_idle_railgun.smd
+SMD MODEL ../railgun/swim_shoot_railgun.smd
+SMD MODEL ../railgun/swim_railgun.smd
+SMD MODEL ../railgun/reload_railgun.smd
+SMD MODEL ../crowbar/jump_crowbar.smd
+SMD MODEL ../crowbar/swim_9aims_crowbar.smd
+SMD MODEL ../crowbar/crouch_9aims_crowbar.smd
+SMD MODEL ../crowbar/run_9aims_crowbar.smd
+SMD MODEL ../crowbar/idle_crowbar.smd
+SMD MODEL ../crowbar/walk_crowbar.smd
+SMD MODEL ../crowbar/run_crowbar.smd
+SMD MODEL ../crowbar/crouch_idle_crowbar.smd
+SMD MODEL ../crowbar/crouch_walk_crowbar.smd
+SMD MODEL ../crowbar/shoot_crowbar.smd
+SMD MODEL ../crowbar/swim_idle_crowbar.smd
+SMD MODEL ../crowbar/swim_shoot_crowbar.smd
+SMD MODEL ../crowbar/swim_crowbar.smd
+SMD MODEL ../crowbar/reload_crowbar.smd
+SMD MODEL ../shield/jump_shield.smd
+SMD MODEL ../shield/swim_9aims_shield.smd
+SMD MODEL ../shield/crouch_9aims_shield.smd
+SMD MODEL ../shield/run_9aims_shield.smd
+SMD MODEL ../shield/idle_shield.smd
+SMD MODEL ../shield/crouch_idle_shield.smd
+SMD MODEL ../shield/crouch_walk_shield.smd
+SMD MODEL ../shield/shoot_shield.smd
+SMD MODEL ../shield/swim_idle_shield.smd
+SMD MODEL ../shield/swim_shoot_shield.smd
+SMD MODEL ../shield/swim_shield.smd
+SMD MODEL ../flamethrower/jump_flamethrower.smd
+SMD MODEL ../flamethrower/swim_9aims_flamethrower.smd
+SMD MODEL ../flamethrower/crouch_9aims_flamethrower.smd
+SMD MODEL ../flamethrower/run_9aims_flamethrower.smd
+SMD MODEL ../flamethrower/idle_flamethrower.smd
+SMD MODEL ../flamethrower/walk_flamethrower.smd
+SMD MODEL ../flamethrower/run_flamethrower.smd
+SMD MODEL ../flamethrower/crouch_idle_flamethrower.smd
+SMD MODEL ../flamethrower/crouch_walk_flamethrower.smd
+SMD MODEL ../flamethrower/shoot_flamethrower.smd
+SMD MODEL ../flamethrower/swim_idle_flamethrower.smd
+SMD MODEL ../flamethrower/swim_shoot_flamethrower.smd
+SMD MODEL ../flamethrower/swim_flamethrower.smd
+SMD MODEL ../flamethrower/reload_flamethrower.smd
+SMD MODEL ../spanner/jump_spanner.smd
+SMD MODEL ../spanner/swim_9aims_spanner.smd
+SMD MODEL ../spanner/crouch_9aims_spanner.smd
+SMD MODEL ../spanner/run_9aims_spanner.smd
+SMD MODEL ../spanner/idle_spanner.smd
+SMD MODEL ../spanner/walk_spanner.smd
+SMD MODEL ../spanner/run_spanner.smd
+SMD MODEL ../spanner/crouch_idle_spanner.smd
+SMD MODEL ../spanner/crouch_walk_spanner.smd
+SMD MODEL ../spanner/shoot_spanner.smd
+SMD MODEL ../spanner/swim_idle_spanner.smd
+SMD MODEL ../spanner/swim_shoot_spanner.smd
+SMD MODEL ../spanner/swim_spanner.smd
+SMD MODEL ../spanner/reload_spanner.smd
+SMD MODEL ../knife/jump_knife.smd
+SMD MODEL ../knife/swim_9aims_knife.smd
+SMD MODEL ../knife/crouch_9aims_knife.smd
+SMD MODEL ../knife/run_9aims_knife.smd
+SMD MODEL ../knife/idle_knife.smd
+SMD MODEL ../knife/walk_knife.smd
+SMD MODEL ../knife/run_knife.smd
+SMD MODEL ../knife/crouch_idle_knife.smd
+SMD MODEL ../knife/crouch_walk_knife.smd
+SMD MODEL ../knife/shoot_knife.smd
+SMD MODEL ../knife/swim_idle_knife.smd
+SMD MODEL ../knife/swim_shoot_knife.smd
+SMD MODEL ../knife/swim_knife.smd
+SMD MODEL ../knife/reload_knife.smd
+SMD MODEL ../umbrella/jump_umbrella.smd
+SMD MODEL ../umbrella/swim_9aims_umbrella.smd
+SMD MODEL ../umbrella/crouch_9aims_umbrella.smd
+SMD MODEL ../umbrella/run_9aims_umbrella.smd
+SMD MODEL ../umbrella/idle_umbrella.smd
+SMD MODEL ../umbrella/walk_umbrella.smd
+SMD MODEL ../umbrella/run_umbrella.smd
+SMD MODEL ../umbrella/crouch_idle_umbrella.smd
+SMD MODEL ../umbrella/crouch_walk_umbrella.smd
+SMD MODEL ../umbrella/shoot_umbrella.smd
+SMD MODEL ../umbrella/swim_idle_umbrella.smd
+SMD MODEL ../umbrella/swim_shoot_umbrella.smd
+SMD MODEL ../umbrella/swim_umbrella.smd
+SMD MODEL ../umbrella/reload_umbrella.smd
+SMD MODEL ../tranq/jump_tranq.smd
+SMD MODEL ../tranq/swim_9aims_tranq.smd
+SMD MODEL ../tranq/crouch_9aims_tranq.smd
+SMD MODEL ../tranq/run_9aims_tranq.smd
+SMD MODEL ../tranq/idle_tranq.smd
+SMD MODEL ../tranq/walk_tranq.smd
+SMD MODEL ../tranq/run_tranq.smd
+SMD MODEL ../tranq/crouch_idle_tranq.smd
+SMD MODEL ../tranq/crouch_walk_tranq.smd
+SMD MODEL ../tranq/shoot_tranq.smd
+SMD MODEL ../tranq/swim_idle_tranq.smd
+SMD MODEL ../tranq/swim_shoot_tranq.smd
+SMD MODEL ../tranq/swim_tranq.smd
+SMD MODEL ../tranq/reload_tranq.smd
+SMD MODEL ../rpg/jump_rpg.smd
+SMD MODEL ../rpg/swim_9aims_rpg.smd
+SMD MODEL ../rpg/crouch_9aims_rpg.smd
+SMD MODEL ../rpg/run_9aims_rpg.smd
+SMD MODEL ../rpg/idle_9aims_rpg.smd
+SMD MODEL ../rpg/idle_rpg.smd
+SMD MODEL ../rpg/walk_rpg.smd
+SMD MODEL ../rpg/run_rpg.smd
+SMD MODEL ../rpg/crouch_idle_rpg.smd
+SMD MODEL ../rpg/crouch_walk_rpg.smd
+SMD MODEL ../rpg/shoot_rpg.smd
+SMD MODEL ../rpg/swim_idle_rpg.smd
+SMD MODEL ../rpg/swim_shoot_rpg.smd
+SMD MODEL ../rpg/swim_rpg.smd
+SMD MODEL ../rpg/reload_rpg.smd
+SMD MODEL ../incendiarycannon/jump_incendiarycannon.smd
+SMD MODEL ../incendiarycannon/swim_9aims_incendiarycannon.smd
+SMD MODEL ../incendiarycannon/crouch_9aims_incendiarycannon.smd
+SMD MODEL ../incendiarycannon/run_9aims_incendiarycannon.smd
+SMD MODEL ../incendiarycannon/idle_incendiarycannon.smd
+SMD MODEL ../incendiarycannon/walk_incendiarycannon.smd
+SMD MODEL ../incendiarycannon/run_incendiarycannon.smd
+SMD MODEL ../incendiarycannon/crouch_idle_incendiarycannon.smd
+SMD MODEL ../incendiarycannon/crouch_walk_incendiarycannon.smd
+SMD MODEL ../incendiarycannon/shoot_incendiarycannon.smd
+SMD MODEL ../incendiarycannon/swim_idle_incendiarycannon.smd
+SMD MODEL ../incendiarycannon/swim_shoot_incendiarycannon.smd
+SMD MODEL ../incendiarycannon/swim_incendiarycannon.smd
+SMD MODEL ../incendiarycannon/reload_incendiarycannon.smd
+SMD MODEL ../medkit/jump_medkit.smd
+SMD MODEL ../medkit/swim_9aims_medkit.smd
+SMD MODEL ../medkit/crouch_9aims_medkit.smd
+SMD MODEL ../medkit/run_9aims_medkit.smd
+SMD MODEL ../medkit/idle_medkit.smd
+SMD MODEL ../medkit/walk_medkit.smd
+SMD MODEL ../medkit/run_medkit.smd
+SMD MODEL ../medkit/crouch_idle_medkit.smd
+SMD MODEL ../medkit/crouch_walk_medkit.smd
+SMD MODEL ../medkit/shoot_medkit.smd
+SMD MODEL ../medkit/swim_idle_medkit.smd
+SMD MODEL ../medkit/swim_shoot_medkit.smd
+SMD MODEL ../medkit/swim_medkit.smd
+SMD MODEL ../medkit/reload_medkit.smd
+SMD MODEL ../sniperrifle/jump_sniperrifle.smd
+SMD MODEL ../sniperrifle/swim_9aims_sniperrifle.smd
+SMD MODEL ../sniperrifle/crouch_9aims_sniperrifle.smd
+SMD MODEL ../sniperrifle/run_9aims_sniperrifle.smd
+SMD MODEL ../sniperrifle/idle_sniperrifle.smd
+SMD MODEL ../sniperrifle/walk_sniperrifle.smd
+SMD MODEL ../sniperrifle/run_sniperrifle.smd
+SMD MODEL ../sniperrifle/crouch_idle_sniperrifle.smd
+SMD MODEL ../sniperrifle/crouch_walk_sniperrifle.smd
+SMD MODEL ../sniperrifle/shoot_sniperrifle.smd
+SMD MODEL ../sniperrifle/swim_idle_sniperrifle.smd
+SMD MODEL ../sniperrifle/swim_shoot_sniperrifle.smd
+SMD MODEL ../sniperrifle/swim_sniperrifle.smd
+SMD MODEL ../sniperrifle/reload_sniperrifle.smd
+SMD MODEL ../autorifle/jump_autorifle.smd
+SMD MODEL ../autorifle/swim_9aims_autorifle.smd
+SMD MODEL ../autorifle/crouch_9aims_autorifle.smd
+SMD MODEL ../autorifle/run_9aims_autorifle.smd
+SMD MODEL ../autorifle/idle_autorifle.smd
+SMD MODEL ../autorifle/walk_autorifle.smd
+SMD MODEL ../autorifle/run_autorifle.smd
+SMD MODEL ../autorifle/crouch_idle_autorifle.smd
+SMD MODEL ../autorifle/crouch_walk_autorifle.smd
+SMD MODEL ../autorifle/shoot_autorifle.smd
+SMD MODEL ../autorifle/swim_idle_autorifle.smd
+SMD MODEL ../autorifle/swim_shoot_autorifle.smd
+SMD MODEL ../autorifle/swim_autorifle.smd
+SMD MODEL ../autorifle/reload_autorifle.smd
+SMD MODEL ../detpack/jump_detpack.smd
+SMD MODEL ../detpack/swim_9aims_detpack.smd
+SMD MODEL ../detpack/crouch_9aims_detpack.smd
+SMD MODEL ../detpack/run_9aims_detpack.smd
+SMD MODEL ../detpack/idle_detpack.smd
+SMD MODEL ../detpack/walk_detpack.smd
+SMD MODEL ../detpack/run_detpack.smd
+SMD MODEL ../detpack/crouch_idle_detpack.smd
+SMD MODEL ../detpack/crouch_walk_detpack.smd
+SMD MODEL ../detpack/shoot_detpack.smd
+SMD MODEL ../detpack/swim_idle_detpack.smd
+SMD MODEL ../detpack/swim_shoot_detpack.smd
+SMD MODEL ../detpack/swim_detpack.smd
+SMD MODEL ../detpack/reload_detpack.smd
+SMD MODEL ../assaultcannon/jump_assaultcannon.smd
+SMD MODEL ../assaultcannon/swim_9aims_assaultcannon.smd
+SMD MODEL ../assaultcannon/crouch_9aims_assaultcannon.smd
+SMD MODEL ../assaultcannon/run_9aims_assaultcannon.smd
+SMD MODEL ../assaultcannon/idle_assaultcannon.smd
+SMD MODEL ../assaultcannon/walk_assaultcannon.smd
+SMD MODEL ../assaultcannon/run_assaultcannon.smd
+SMD MODEL ../assaultcannon/crouch_idle_assaultcannon.smd
+SMD MODEL ../assaultcannon/crouch_walk_assaultcannon.smd
+SMD MODEL ../assaultcannon/shoot_assaultcannon.smd
+SMD MODEL ../assaultcannon/swim_idle_assaultcannon.smd
+SMD MODEL ../assaultcannon/swim_shoot_assaultcannon.smd
+SMD MODEL ../assaultcannon/swim_assaultcannon.smd
+SMD MODEL ../assaultcannon/reload_assaultcannon.smd
+SMD MODEL ../dispenser/jump_dispenser.smd
+SMD MODEL ../dispenser/swim_9aims_dispenser.smd
+SMD MODEL ../dispenser/crouch_9aims_dispenser.smd
+SMD MODEL ../dispenser/run_9aims_dispenser.smd
+SMD MODEL ../dispenser/idle_dispenser.smd
+SMD MODEL ../dispenser/walk_dispenser.smd
+SMD MODEL ../dispenser/run_dispenser.smd
+SMD MODEL ../dispenser/crouch_idle_dispenser.smd
+SMD MODEL ../dispenser/crouch_walk_dispenser.smd
+SMD MODEL ../dispenser/shoot_dispenser.smd
+SMD MODEL ../dispenser/swim_idle_dispenser.smd
+SMD MODEL ../dispenser/swim_shoot_dispenser.smd
+SMD MODEL ../dispenser/swim_dispenser.smd
+SMD MODEL ../dispenser/reload_dispenser.smd
+SMD MODEL ../tommygun/jump_tommygun.smd
+SMD MODEL ../tommygun/swim_9aims_tommygun.smd
+SMD MODEL ../tommygun/crouch_9aims_tommygun.smd
+SMD MODEL ../tommygun/run_9aims_tommygun.smd
+SMD MODEL ../tommygun/idle_tommygun.smd
+SMD MODEL ../tommygun/walk_tommygun.smd
+SMD MODEL ../tommygun/run_tommygun.smd
+SMD MODEL ../tommygun/crouch_idle_tommygun.smd
+SMD MODEL ../tommygun/crouch_walk_tommygun.smd
+SMD MODEL ../tommygun/shoot_tommygun.smd
+SMD MODEL ../tommygun/swim_idle_tommygun.smd
+SMD MODEL ../tommygun/swim_shoot_tommygun.smd
+SMD MODEL ../tommygun/swim_tommygun.smd
+SMD MODEL ../tommygun/reload_tommygun.smd
+SMD MODEL ../sentrygun/jump_sentrygun.smd
+SMD MODEL ../sentrygun/swim_9aims_sentrygun.smd
+SMD MODEL ../sentrygun/crouch_9aims_sentrygun.smd
+SMD MODEL ../sentrygun/run_9aims_sentrygun.smd
+SMD MODEL ../sentrygun/idle_sentrygun.smd
+SMD MODEL ../sentrygun/walk_sentrygun.smd
+SMD MODEL ../sentrygun/run_sentrygun.smd
+SMD MODEL ../sentrygun/crouch_idle_sentrygun.smd
+SMD MODEL ../sentrygun/crouch_walk_sentrygun.smd
+SMD MODEL ../sentrygun/shoot_sentrygun.smd
+SMD MODEL ../sentrygun/swim_idle_sentrygun.smd
+SMD MODEL ../sentrygun/swim_shoot_sentrygun.smd
+SMD MODEL ../sentrygun/swim_sentrygun.smd
+SMD MODEL ../sentrygun/reload_sentrygun.smd
+a_RunS : 0 - 18 : -85.9 0.0 0.0
+a_RunSE : 0 - 18 : -58.4 -58.4 0.0
+a_RunE : 0 - 18 : -0.0 -58.9 0.0
+a_RunNE : 0 - 18 : 61.2 -61.2 0.0
+a_RunN : 0 - 18 : 134.0 0.0 0.0
+a_RunNW : 0 - 18 : 58.6 58.6 0.0
+a_RunW : 0 - 18 : -0.0 58.6 0.0
+a_RunSW : 0 - 18 : -60.0 60.0 0.0
+a_WalkS : 0 - 24 : -68.8 -0.0 0.0
+a_WalkSE : 0 - 24 : -30.0 -30.0 0.0
+a_WalkE : 0 - 24 : -0.0 -55.6 0.0
+a_WalkNE : 0 - 24 : 47.9 -47.9 0.0
+a_WalkN : 0 - 24 : 62.0 0.0 0.0
+a_WalkNW : 0 - 24 : 48.3 48.3 0.0
+a_WalkW : 0 - 24 : -0.0 68.6 0.0
+a_WalkSW : 0 - 24 : -30.0 30.0 0.0
+a_Crouch_walkS : 0 - 30 : -55.9 0.0 0.0
+a_Crouch_walkSE : 0 - 30 : -44.6 -44.6 0.0
+a_Crouch_walkE : 0 - 30 : -0.0 -42.5 0.0
+a_Crouch_walkNE : 0 - 30 : 51.5 -51.5 0.0
+a_Crouch_walkN : 0 - 30 : 62.7 0.0 0.0
+a_Crouch_walkNW : 0 - 30 : 48.2 48.2 0.0
+a_Crouch_walkW : 0 - 30 : -0.0 48.8 0.0
+a_Crouch_walkSW : 0 - 30 : -66.6 66.6 0.0
+a_SwimS : 0 - 24 : -0.0 0.0 0.0
+a_SwimSE : 0 - 24 : -0.0 -0.0 0.0
+a_SwimE : 0 - 24 : -0.0 -0.0 0.0
+a_SwimNE : 0 - 24 : 0.0 -0.0 0.0
+a_SwimN : 0 - 24 : 0.0 -0.0 0.0
+a_SwimNW : 0 - 24 : 0.0 0.0 0.0
+a_SwimW : 0 - 24 : 0.0 0.0 0.0
+a_SwimSW : 0 - 24 : -0.0 0.0 0.0
+---------------------
+writing C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\models/player/ff_player_shared.mdl:
+bones        11040 bytes (48)
+   animation       x       y       ips    angle
+      a_RunS  -85.93    0.00 :  143.22 ( 180.00) 0.6
+     a_RunSE  -58.42  -58.42 :  137.70 (-135.00) 0.6
+      a_RunE   -0.00  -58.88 :   98.14 ( -90.00) 0.6
+     a_RunNE   61.20  -61.20 :  144.25 ( -45.00) 0.6
+      a_RunN  134.02    0.00 :  223.36 (   0.00) 0.6
+     a_RunNW   58.56   58.56 :  138.02 (  45.00) 0.6
+      a_RunW   -0.00   58.56 :   97.60 (  90.00) 0.6
+     a_RunSW  -60.00   60.00 :  141.42 ( 135.00) 0.6
+     a_WalkS  -68.80   -0.00 :   86.00 (-180.00) 0.8
+    a_WalkSE  -30.00  -30.00 :   53.03 (-135.00) 0.8
+     a_WalkE   -0.00  -55.63 :   69.53 ( -90.00) 0.8
+    a_WalkNE   47.92  -47.92 :   84.71 ( -45.00) 0.8
+     a_WalkN   62.05    0.00 :   77.56 (   0.00) 0.8
+    a_WalkNW   48.33   48.33 :   85.44 (  45.00) 0.8
+     a_WalkW   -0.00   68.60 :   85.75 (  90.00) 0.8
+    a_WalkSW  -30.02   30.02 :   53.07 ( 135.00) 0.8
+a_Crouch_walkS  -55.92    0.00 :   55.92 ( 180.00) 1.0
+a_Crouch_walkSE  -44.62  -44.62 :   63.10 (-135.00) 1.0
+a_Crouch_walkE   -0.00  -42.53 :   42.53 ( -90.00) 1.0
+a_Crouch_walkNE   51.52  -51.52 :   72.87 ( -45.00) 1.0
+a_Crouch_walkN   62.72    0.00 :   62.72 (   0.00) 1.0
+a_Crouch_walkNW   48.19   48.19 :   68.14 (  45.00) 1.0
+a_Crouch_walkW   -0.00   48.79 :   48.79 (  90.00) 1.0
+a_Crouch_walkSW  -66.57   66.57 :   94.15 ( 135.00) 1.0
+     a_SwimS   -0.01    0.00 :    0.01 ( 180.00) 0.8
+    a_SwimSE   -0.01   -0.01 :    0.01 (-135.00) 0.8
+     a_SwimE   -0.00   -0.01 :    0.01 ( -90.00) 0.8
+    a_SwimNE    0.01   -0.01 :    0.01 ( -45.00) 0.8
+     a_SwimN    0.01   -0.00 :    0.01 (  -0.00) 0.8
+    a_SwimNW    0.01    0.01 :    0.01 (  45.00) 0.8
+     a_SwimW    0.00    0.01 :    0.01 (  90.00) 0.8
+    a_SwimSW   -0.01    0.01 :    0.01 ( 135.00) 0.8
+animations 1501828 bytes (1071 anims) (12098 frames) [6:43]
+sequences   106548 bytes (431 seq) 
+ik/pose        280 bytes
+textures         4 bytes
+keyvalues        0 bytes
+collision        0 bytes
+total      1659312
+
+Completed "ff_player_shared.qc"
+
+Compiling...

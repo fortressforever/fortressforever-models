@@ -1807,19 +1807,58 @@ $sequence Jump_Upper_nailgun "nailgun/jump_nailgun" FPS 30 startloop 0 weightlis
 			Run_rpg_aim_mid_right Run_rpg_aim_mid_center Run_rpg_aim_mid_left 
 			Run_rpg_aim_down_right Run_rpg_aim_down_center Run_rpg_aim_down_left 
 			weightlist upperbody
-			blendwidth 3 blend body_yaw -90 90 blend body_pitch -65 65
+			blendwidth 3 blend body_yaw -90 90 blend body_pitch -65 65 //was -65 65, tried -80 65, didn't help
 			iklock lfoot 1 0 iklock rfoot 1 0
 			delta
 				}
 
+		$animation Idle_rpg_aim_neutral rpg/idle_9aims_rpg frame 4 4
+		$animation Idle_rpg_aim_up_left rpg/idle_9aims_rpg frame 0 0 subtract Idle_rpg_aim_neutral 0
+		$animation Idle_rpg_aim_up_center rpg/idle_9aims_rpg frame 1 1 subtract Idle_rpg_aim_neutral 0
+		$animation Idle_rpg_aim_up_right rpg/idle_9aims_rpg frame 2 2 subtract Idle_rpg_aim_neutral 0
+		$animation Idle_rpg_aim_mid_left rpg/idle_9aims_rpg frame 3 3 subtract Idle_rpg_aim_neutral 0
+		$animation Idle_rpg_aim_mid_center rpg/idle_9aims_rpg frame 4 4 subtract Idle_rpg_aim_neutral 0
+		$animation Idle_rpg_aim_mid_right rpg/idle_9aims_rpg frame 5 5 subtract Idle_rpg_aim_neutral 0
+		$animation Idle_rpg_aim_down_left rpg/idle_9aims_rpg frame 6 6 subtract Idle_rpg_aim_neutral 0
+		$animation Idle_rpg_aim_down_center rpg/idle_9aims_rpg frame 7 7 subtract Idle_rpg_aim_neutral 0
+		$animation Idle_rpg_aim_down_right rpg/idle_9aims_rpg frame 8 8 subtract Idle_rpg_aim_neutral 0
 
-
-		$sequence Idle_Upper_rpg "rpg/idle_rpg" FPS 30 weightlist upperbody addlayer Run_Aim_rpg
-		$sequence Walk_Upper_rpg "rpg/walk_rpg" FPS 30 weightlist upperbody addlayer Run_Aim_rpg
-		$sequence Run_Upper_rpg "rpg/run_rpg" FPS 30 startloop 0 weightlist upperbody addlayer Run_Aim_rpg
-		$sequence Crouch_Idle_Upper_rpg "rpg/crouch_idle_rpg" FPS 30 weightlist upperbody addlayer Crouch_Aim_rpg
-		$sequence Crouch_Walk_Upper_rpg "rpg/crouch_walk_rpg" FPS 30 weightlist upperbody addlayer Crouch_Aim_rpg
-
+		$sequence Idle_Aim_rpg  { 
+			Idle_rpg_aim_up_right Idle_rpg_aim_up_center Idle_rpg_aim_up_left 
+			Idle_rpg_aim_mid_right Idle_rpg_aim_mid_center Idle_rpg_aim_mid_left 
+			Idle_rpg_aim_down_right Idle_rpg_aim_down_center Idle_rpg_aim_down_left 
+			weightlist upperbody
+			blendwidth 3 blend body_yaw -90 90 blend body_pitch -65 65 //was -65 65, tried -80 65, didn't help
+			iklock lfoot 1 0 iklock rfoot 1 0
+			delta
+				}
+		
+		$sequence Idle_Upper_rpg "rpg/idle_rpg" {
+			FPS 30
+			weightlist upperbody
+			addlayer Run_Aim_rpg
+				}
+		$sequence Walk_Upper_rpg "rpg/walk_rpg" {
+			FPS 30
+			weightlist upperbody
+			addlayer Run_Aim_rpg
+				}
+		$sequence Run_Upper_rpg "rpg/run_rpg" {
+			FPS 30
+			startloop 0
+			weightlist upperbody
+			addlayer Run_Aim_rpg
+				}
+		$sequence Crouch_Idle_Upper_rpg "rpg/crouch_idle_rpg" {
+			FPS 30
+			weightlist upperbody
+			addlayer Crouch_Aim_rpg
+				}
+		$sequence Crouch_Walk_Upper_rpg "rpg/crouch_walk_rpg" {
+			FPS 30
+			weightlist upperbody
+			addlayer Crouch_Aim_rpg
+				}
 
 		$animation Idle_Shoot_rpg_layer "rpg/shoot_rpg" FPS 30 subtract Idle_Shoot_rpg_layer 0 weightlist upperbody
 		$sequence Idle_Shoot_rpg "Idle_Shoot_rpg_layer" delta
