@@ -18,6 +18,8 @@ The model source files of Fortress Forever
 
 ## Compiling a Model
 
+If compiling the player models, simply run compile.bat inside `player\ff_player_shared\compile` and check the output for where Source SDK has put the resulting file.
+
 To compile a model, use `studiomdl.exe` found in `Steam/steamapps/common/SourceSDK/bin/ep1/bin`. When you launch Source SDK (see setup instructions), an environment variable named `SourceSDK` will get set to the `Steam/steamapps/common/SourceSDK` directory path, so you can use `%SourceSDK%/bin/ep1/bin/studiomdl` as a shortcut to studiomdl that will work across different machines.
 
 Example commands to compile the tranquilizer viewmodel:
