@@ -37,7 +37,7 @@ $sequence Idle1 "v_supershotgun_anims\Idle1.smd" fps 30.00 ACT_VM_IDLE 3 loop
 $sequence Idle2 "v_supershotgun_anims\Idle2.smd" fps 30.00 ACT_VM_IDLE 3 loop
 $sequence Idle3 "v_supershotgun_anims\Idle3.smd" fps 30.00 ACT_VM_IDLE 3 loop
 //A little 'inspect' animation, is two-thirds as likely as the other idles to play.
-$sequence Idle4 "v_supershotgun_anims\Idle4.smd" fps 30.00 ACT_VM_IDLE 2 loop
+//$sequence Idle4 "v_supershotgun_anims\Idle4.smd" fps 30.00 ACT_VM_IDLE 2 loop
 
 $sequence "Fire" "v_supershotgun_anims\Fire.smd" {
 	fps 30

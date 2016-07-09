@@ -441,13 +441,13 @@ a_Crouch_walkSW  -66.57   66.57 :   94.15 ( 135.00) 1.0
     a_SwimNW    0.01    0.01 :    0.01 (  45.00) 0.8
      a_SwimW    0.00    0.01 :    0.01 (  90.00) 0.8
     a_SwimSW   -0.01    0.01 :    0.01 ( 135.00) 0.8
-animations 1501828 bytes (1071 anims) (12098 frames) [6:43]
+animations 1507240 bytes (1071 anims) (12158 frames) [6:45]
 sequences   106548 bytes (431 seq) 
 ik/pose        280 bytes
 textures         4 bytes
 keyvalues        0 bytes
 collision        0 bytes
-total      1659312
+total      1664724
 
 Completed "ff_player_shared.qc"
 

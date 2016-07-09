@@ -1,0 +1,85 @@
+// Created by Crowbar 0.24.0.0
+
+Compiling...
+
+qdir:    "c:\program files (x86)\steam\steamapps\common\fortress forever\fortressforever\models\weapons\flamethrower\v_flamethrower_decompiled\"
+gamedir: "C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\"
+g_path:  "v_flamethrower"
+Working on "v_flamethrower.qc"
+SMD MODEL v_flamethrower_reference.smd
+SMD MODEL v_flamethrower_anims\Draw.smd
+SMD MODEL v_flamethrower_anims\Idle1.smd
+SMD MODEL v_flamethrower_anims\Idle2.smd
+SMD MODEL v_flamethrower_anims\Idle3.smd
+SMD MODEL v_flamethrower_anims\Fire.smd
+SMD MODEL v_flamethrower_anims\Reload.smd
+---------------------
+writing C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\models/weapons/flamethrower/v_flamethrower.mdl:
+bones         6860 bytes (26)
+   animation       x       y       ips    angle
+animations   26552 bytes (6 anims) (720 frames) [0:24]
+sequences     1400 bytes (6 seq) 
+ik/pose        164 bytes
+eyeballs         0 bytes (0 eyeballs)
+flexes           0 bytes (0 flexes)
+textures       272 bytes
+keyvalues        0 bytes
+collision        0 bytes
+total        36388
+---------------------
+writing C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\models/weapons/flamethrower/v_flamethrower.vvd:
+vertices    161904 bytes (3373 vertices)
+tangents     53968 bytes (3373 vertices)
+total       215936 bytes
+---------------------
+Generating optimized mesh "C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\models/weapons/flamethrower/v_flamethrower.sw.vtx":
+body parts:         8 bytes
+models:            20 bytes
+model LODs:        12 bytes
+meshes:            36 bytes
+strip groups:     100 bytes
+strips:           108 bytes
+verts:          30357 bytes
+indices:        25506 bytes
+bone changes:       8 bytes
+everything:     56179 bytes
+---------------------
+Generating optimized mesh "C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\models/weapons/flamethrower/v_flamethrower.dx80.vtx":
+body parts:         8 bytes
+models:            20 bytes
+model LODs:        12 bytes
+meshes:            36 bytes
+strip groups:     100 bytes
+strips:           135 bytes
+verts:          30573 bytes
+indices:        25506 bytes
+bone changes:     240 bytes
+everything:     56654 bytes
+---------------------
+Generating optimized mesh "C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\models/weapons/flamethrower/v_flamethrower.dx90.vtx":
+body parts:         8 bytes
+models:            20 bytes
+model LODs:        12 bytes
+meshes:            36 bytes
+strip groups:     100 bytes
+strips:           108 bytes
+verts:          30357 bytes
+indices:        25506 bytes
+bone changes:     216 bytes
+everything:     56387 bytes
+---------------------
+Generating optimized mesh "C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\models/weapons/flamethrower/v_flamethrower.xbox.vtx":
+body parts:         8 bytes
+models:            20 bytes
+model LODs:        12 bytes
+meshes:            36 bytes
+strip groups:     100 bytes
+strips:           108 bytes
+verts:          30357 bytes
+indices:        25506 bytes
+bone changes:     216 bytes
+everything:     56387 bytes
+
+Completed "v_flamethrower.qc"
+
+Compiling...
