@@ -16,6 +16,15 @@ The model source files of Fortress Forever
   * Select *Source Engine 2006* as the *Engine Version* and *Fortress Forever* as the *Current Game*
   * You can now close Source SDK as it's no longer needed
 
+NOTE: **Manual Setup**
+  * If the batch setup file does not work, you have no SteamAppData.vdf, or you still get the "Can't find Steam app user info." error, you can always make a custom VDF instead. Fortress Forever is thus far among many mods to not have gotten ahold of Valve's update, and thus requires Steam app user info. Create that file in `%SourceSDK%/bin/ep1/bin/config` with the following contents:
+```
+"SteamAppData"{
+"RememberPassword" "0"
+"AutoLoginUser" "anythinghere"
+}
+```
+
 ## Compiling a Model
 
 If compiling the player models, simply run compile.bat inside `player\ff_player_shared\compile` and check the output for where Source SDK has put the resulting file.
