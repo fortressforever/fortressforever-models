@@ -1,84 +1,77 @@
 $cd ".."
 $modelname "player/demoman/demoman.mdl"
 //$model studio "/reference/demoman_reference.smd"
-$bodygroup torso
-{
+$bodygroup torso{
 studio "/reference/demoman_reference_torsoShape.smd"
 blank
 }
-$bodygroup head
-{
+$bodygroup head{
 studio "/reference/demoman_reference_headShape.smd"
 blank
 }
-$bodygroup leftArm
-{
+$bodygroup leftArm{
 studio "/reference/demoman_reference_leftArmShape.smd"
 blank
 }
-$bodygroup leftLeg
-{
+$bodygroup leftLeg{
 studio "/reference/demoman_reference_leftLegShape.smd"
 blank
 }
-$bodygroup rightArm
-{
+$bodygroup rightArm{
 studio "/reference/demoman_reference_rightArmShape.smd"
 blank
 }
-$bodygroup rightLeg
-{
+$bodygroup rightLeg{
 studio "/reference/demoman_reference_rightLegShape.smd"
 blank
 }
-$texturegroup skinfamilies {
-	{ "demoman_body_blue.vmt"  "demoman_head_blue.vmt"  "demoman_acc_generic.vmt"  "sniper_accessories.vmt"}
-	{ "demoman_body_red.vmt"    "demoman_head_red.vmt" "demoman_acc_generic.vmt"  "sniper_accessories.vmt"}
-	{ "demoman_body_yellow.vmt"  "demoman_head_yellow.vmt" "demoman_acc_generic.vmt"  "sniper_accessories.vmt"}
-	{ "demoman_body_green.vmt"   "demoman_head_green.vmt" "demoman_acc_generic.vmt"  "sniper_accessories.vmt"}
+$texturegroup skinfamilies {	//There's only one head texture, so... -BreakinBenny
+	{ "demoman_body_blue.vmt" "demoman_head_generic.vmt" "demoman_acc_generic.vmt" "sniper_accessories.vmt"}
+	{ "demoman_body_red.vmt" "demoman_head_generic.vmt" "demoman_acc_generic.vmt" "sniper_accessories.vmt"}
+	{ "demoman_body_yellow.vmt" "demoman_head_generic.vmt" "demoman_acc_generic.vmt" "sniper_accessories.vmt"}
+	{ "demoman_body_green.vmt" "demoman_head_generic.vmt" "demoman_acc_generic.vmt" "sniper_accessories.vmt"}
 }
-    $lod 10 {
-	  replacemodel "/reference/demoman_reference_torsoShape.smd" "/reference/LOD/demoman_reference_torsoShape_lod1.smd"
- 	  replacemodel "/reference/demoman_reference_headShape.smd" "/reference/LOD/demoman_reference_headShape_lod1.smd"
- 	  replacemodel "/reference/demoman_reference_leftArmShape.smd" "/reference/LOD/demoman_reference_leftarmShape_lod1.smd"
- 	  replacemodel "/reference/demoman_reference_rightArmShape.smd" "/reference/LOD/demoman_reference_rightarmShape_lod1.smd"
- 	  replacemodel "/reference/demoman_reference_leftLegShape.smd" "/reference/LOD/demoman_reference_leftlegShape_lod1.smd"
- 	  replacemodel "/reference/demoman_reference_rightLegShape.smd" "/reference/LOD/demoman_reference_rightlegShape_lod1.smd"
-    }
 
- $lod 35 {
+$lod 10 {
+ replacemodel "/reference/demoman_reference_torsoShape.smd" "/reference/LOD/demoman_reference_torsoShape_lod1.smd"
+ replacemodel "/reference/demoman_reference_headShape.smd" "/reference/LOD/demoman_reference_headShape_lod1.smd"
+ replacemodel "/reference/demoman_reference_leftArmShape.smd" "/reference/LOD/demoman_reference_leftarmShape_lod1.smd"
+ replacemodel "/reference/demoman_reference_rightArmShape.smd" "/reference/LOD/demoman_reference_rightarmShape_lod1.smd"
+ replacemodel "/reference/demoman_reference_leftLegShape.smd" "/reference/LOD/demoman_reference_leftlegShape_lod1.smd"
+ replacemodel "/reference/demoman_reference_rightLegShape.smd" "/reference/LOD/demoman_reference_rightlegShape_lod1.smd"
+}
+$lod 35 {
+ replacemodel "/reference/demoman_reference_torsoShape.smd" "/reference/LOD/demoman_reference_torsoShape_lod2.smd"
+ replacemodel "/reference/demoman_reference_headShape.smd" "/reference/LOD/demoman_reference_headShape_lod2.smd"
+ replacemodel "/reference/demoman_reference_leftArmShape.smd" "/reference/LOD/demoman_reference_leftArmShape_lod2.smd"
+ replacemodel "/reference/demoman_reference_rightArmShape.smd" "/reference/LOD/demoman_reference_rightArmShape_lod2.smd"
+ replacemodel "/reference/demoman_reference_leftLegShape.smd" "/reference/LOD/demoman_reference_leftLegShape_lod2.smd"
+ replacemodel "/reference/demoman_reference_rightLegShape.smd" "/reference/LOD/demoman_reference_rightLegShape_lod2.smd"
 
- 	replacemodel "/reference/demoman_reference_torsoShape.smd" "/reference/LOD/demoman_reference_torsoShape_lod2.smd"
- 	replacemodel "/reference/demoman_reference_headShape.smd" "/reference/LOD/demoman_reference_headShape_lod2.smd"
- 	replacemodel "/reference/demoman_reference_leftArmShape.smd" "/reference/LOD/demoman_reference_leftArmShape_lod2.smd"
- 	replacemodel "/reference/demoman_reference_rightArmShape.smd" "/reference/LOD/demoman_reference_rightArmShape_lod2.smd"
- 	replacemodel "/reference/demoman_reference_leftLegShape.smd" "/reference/LOD/demoman_reference_leftLegShape_lod2.smd"
- 	replacemodel "/reference/demoman_reference_rightLegShape.smd" "/reference/LOD/demoman_reference_rightLegShape_lod2.smd"
+ bonetreecollapse "ffSkel_lefthand"
+ bonetreecollapse "ffSkel_righthand"
 
- 	bonetreecollapse "ffSkel_lefthand"
-        bonetreecollapse "ffSkel_righthand"
+ bonetreecollapse "ffSkel_necks"
+ bonetreecollapse "ffSkel_leftForeArm"
+ bonetreecollapse "ffSkel_rightForeArm"
+ bonetreecollapse "ffSkel_leftLeg"
+ bonetreecollapse "ffSkel_rightLeg"
 
- 	bonetreecollapse "ffSkel_necks"
- 	bonetreecollapse "ffSkel_leftForeArm"
- 	bonetreecollapse "ffSkel_rightForeArm"
- 	bonetreecollapse "ffSkel_leftLeg"
-	bonetreecollapse "ffSkel_rightLeg"
-	// simplify spine
-        replacebone "ffSkel_Necks" "ffSkel_Spine2"
- 	replacebone "ffSkel_Spine3" "ffSkel_spine2"
- 	replacebone "ffSkel_spine1" "ffSkel_spine"
- 	replacebone "ffSkel_Spine"  "ffSkel_spine2"
- }
+// simplify spine
+replacebone "ffSkel_Necks" "ffSkel_Spine2"
+replacebone "ffSkel_Spine3" "ffSkel_spine2"
+replacebone "ffSkel_spine1" "ffSkel_spine"
+replacebone "ffSkel_Spine" "ffSkel_spine2"
+}
 
- 	$shadowlod
- 	{
- 	replacemodel "/reference/demoman_reference_torsoShape.smd" "/reference/LOD/demoman_reference_torsoShape_lod2.smd"
- 	replacemodel "/reference/demoman_reference_headShape.smd" "/reference/LOD/demoman_reference_headShape_lod2.smd"
- 	replacemodel "/reference/demoman_reference_leftArmShape.smd" "/reference/LOD/demoman_reference_leftArmShape_lod2.smd"
- 	replacemodel "/reference/demoman_reference_rightArmShape.smd" "/reference/LOD/demoman_reference_rightArmShape_lod2.smd"
- 	replacemodel "/reference/demoman_reference_leftLegShape.smd" "/reference/LOD/demoman_reference_leftLegShape_lod2.smd"
- 	replacemodel "/reference/demoman_reference_rightLegShape.smd" "/reference/LOD/demoman_reference_rightLegShape_lod2.smd"
-	}
+$shadowlod{
+replacemodel "/reference/demoman_reference_torsoShape.smd" "/reference/LOD/demoman_reference_torsoShape_lod2.smd"
+replacemodel "/reference/demoman_reference_headShape.smd" "/reference/LOD/demoman_reference_headShape_lod2.smd"
+replacemodel "/reference/demoman_reference_leftArmShape.smd" "/reference/LOD/demoman_reference_leftArmShape_lod2.smd"
+replacemodel "/reference/demoman_reference_rightArmShape.smd" "/reference/LOD/demoman_reference_rightArmShape_lod2.smd"
+replacemodel "/reference/demoman_reference_leftLegShape.smd" "/reference/LOD/demoman_reference_leftLegShape_lod2.smd"
+replacemodel "/reference/demoman_reference_rightLegShape.smd" "/reference/LOD/demoman_reference_rightLegShape_lod2.smd"
+}
  
 $attachment "attach_head" "ffSkel_Head" 0 0 0 rotate 0 0 0
 $attachment "attach_leftArm" "ffSkel_LeftArm" 0 0 0 rotate -80 0 0
@@ -87,34 +80,33 @@ $attachment "attach_rightArm" "ffSkel_RightArm" 0 0 0 rotate 80 0 0
 $attachment "attach_rightLeg" "ffSkel_RightUpLeg" 0 0 0 rotate 0 0 0
 $attachment "anim_attachment_RH" "ffSkel_RightHand" 0 0 0 rotate 0 0 0
 $attachment "anim_attachment_LH" "ffSkel_LeftHand" 0 0 0 rotate 0 0 0
-$attachment "ffAtt_flag" "ffSkel_Spine3" 5 3 0 rotate  0 0 0
+$attachment "ffAtt_flag" "ffSkel_Spine3" 5 3 0 rotate 0 0 0
 
-// {
-//    flexfile "/reference/demoman_decap.vta"
-//    flex "decap"  frame 10
-//   flexcontroller "phoneme" "decap" "_range" 0 1
-//   
-// flexfile "/reference/demoman_bighead.vta"
-//    flex "bighead"  frame 10
-//   flexcontroller "phoneme" "bighead" "range" 0 1
+/* {
+	flexfile "/reference/demoman_decap.vta"
+	flex "decap" frame 10
+	flexcontroller "phoneme" "decap" "_range" 0 1
+	flexfile "/reference/demoman_bighead.vta"
+	flex "bighead" frame 10
+	flexcontroller "phoneme" "bighead" "range" 0 1
+	%decap = decap
+	%bighead = bighead
 
-//%decap = decap
-//%bighead = bighead
+}
+*/
 
-
-//}
- 
 //$cdmaterials "models\police\"
 //$cdmaterials "models\humans\male\"
 $cdmaterials "models/player/demoman/"
-// Model uses material "bmouth.vmt"
-// Model uses material "eyeball_l.vmt"
-// Model uses material "barneyface.vmt"
-// Model uses material "eyeball_r.vmt"
-// Model uses material "metrocop_sheet.vmt"
-// Model uses material "pupil_r.vmt"
-// Model uses material "glint.vmt"
-// Model uses material "pupil_l.vmt"
+/* Model uses material "bmouth.vmt"
+Model uses material "eyeball_l.vmt"
+Model uses material "barneyface.vmt"
+Model uses material "eyeball_r.vmt"
+Model uses material "metrocop_sheet.vmt"
+Model uses material "pupil_r.vmt"
+Model uses material "glint.vmt"
+Model uses material "pupil_l.vmt"
+*/
 
 $attachment "eyes" "ffSkel_head" 5.00 0.00 0.05 rotate 0 -20 -90
 $attachment "mouth" "ffSkel_head" 0.30 -5.70 -0.00 rotate 0.00 -80.00 -90.00
@@ -122,13 +114,6 @@ $attachment "chest" "ffSkel_Spine2" 5.00 4.00 -0.00 rotate -0.00 90.00 90.00
 $attachment "helmet_attachment" "ffSkel_head" 2.66 -1.60 -0.00 rotate 0.00 -82.95 -90.00
 
 $includemodel "player/ff_player_shared.mdl"
-//$includemodel "player/cs_player_shared.mdl"
-//$includemodel "player/ak_anims_t.mdl"
-//$includemodel "barney_animations.mdl"
-//$includemodel "/humans/male_shared.mdl"
-//$includemodel "/hl2dm/male_shared.mdl"
-//$includemodel "barney_postures.mdl"
-//$includemodel "barney_gestures.mdl"
 $surfaceprop "flesh"
 
 $bbox -16 -16 0 16 16 72 
@@ -158,8 +143,7 @@ $bbox -16 -16 0 16 16 72
 //$hbox 5 "ffSkel_RightHand"	     0.50   -2.72   -1.75     5.50    0.72    2.75
 //end old hitboxes
 
-//begin new hitboxes 
-
+//begin new hitboxes
 $hboxset "fortressforever"
 
 $hbox 3 "ffSkel_Hips"	    -5.00   -6.75   -6.00     5.00    6.75    6.00
@@ -188,7 +172,6 @@ $hbox 4 "ffSkel_LeftShoulder"	    -3.00  -10.00   -2.00     3.00   -4.00    4.00
 //end new hitboxes
 //
 
-
 //$ikchain rhand ffSkel_RightHand 
 //$ikchain lhand ffSkel_LeftHand 
 $ikchain rfoot ffSkel_RightFoot 
@@ -197,12 +180,11 @@ $ikchain lfoot ffSkel_LeftFoot
 $sequence ragdoll "/reference/ragdoll" ACT_DIERAGDOLL 1 fps 30.00
 $bonemerge ffSkel_att_righthand
 $collisionjoints "/reference/demoman_reference_phy.smd" {
-
 	$mass 90.0
-  	$inertia 2.00
-  	$damping 0.01
-  	$rotdamping 4
-  	$rootbone "ffSkel_Hips"
+	$inertia 2.00
+	$damping 0.01
+	$rotdamping 4
+	$rootbone "ffSkel_Hips"
 	$jointmerge "ffSkel_Hips" "ffSkel_ffSkel_Spine1"
 
  	$jointconstrain "ffSkel_spine2" x limit -48.00 48.00 0.00
@@ -215,9 +197,9 @@ $collisionjoints "/reference/demoman_reference_phy.smd" {
 
  	$jointconstrain "ffSkel_leftarm" x limit -30.00 30.00 0.00
  	$jointconstrain "ffSkel_leftarm" y limit -95.00 84.00 0.00
-  	$jointconstrain "ffSkel_leftarm" z limit -86.00 26.00 0.00
+	$jointconstrain "ffSkel_leftarm" z limit -86.00 26.00 0.00
 
-  	$jointconstrain "ffSkel_leftforearm" x limit 0.00 0.00 0.00
+	$jointconstrain "ffSkel_leftforearm" x limit 0.00 0.00 0.00
  	$jointconstrain "ffSkel_leftforearm" y limit 0.00 0.00 0.00
  	$jointconstrain "ffSkel_leftforearm" z limit -149.00 4.00 0.00
 
@@ -261,4 +243,3 @@ $collisionjoints "/reference/demoman_reference_phy.smd" {
 	$jointconstrain "ffSkel_rightfoot" y limit -10.00 6.00 0.00
 	$jointconstrain "ffSkel_rightfoot" z limit -5.00 15.00 0.00
 }
-
