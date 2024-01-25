@@ -1,29 +1,28 @@
 $cd ".."
-
 $modelname "player/civilian/civilian.mdl"
 //$model studio "/reference/civilian_reference.smd"
 
-$bodygroup torso{
+$bodygroup torso {
 studio "/reference/civilian_reference_torsoShape.smd"
 blank
 }
-$bodygroup head{
+$bodygroup head {
 studio "/reference/civilian_reference_headShape.smd"
 blank
 }
-$bodygroup leftArm{
+$bodygroup leftArm {
 studio "/reference/civilian_reference_leftArmShape.smd"
 blank
 }
-$bodygroup leftLeg{
+$bodygroup leftLeg {
 studio "/reference/civilian_reference_leftLegShape.smd"
 blank
 }
-$bodygroup rightArm{
+$bodygroup rightArm {
 studio "/reference/civilian_reference_rightArmShape.smd"
 blank
 }
-$bodygroup rightLeg{
+$bodygroup rightLeg {
 studio "/reference/civilian_reference_rightLegShape.smd"
 blank
 }
