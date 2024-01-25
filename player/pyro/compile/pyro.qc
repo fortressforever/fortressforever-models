@@ -1,37 +1,36 @@
 $cd ".."
 $modelname "player/pyro/pyro.mdl"
 //$model studio "/reference/pyro_reference.smd"
-
-$bodygroup torso{
+$bodygroup torso {
 studio "/reference/pyro_reference_torsoShape.smd"
 blank
 }
-$bodygroup head{
+$bodygroup head {
 studio "/reference/pyro_reference_headShape.smd"
 blank
 }
-$bodygroup leftArm{
+$bodygroup leftArm {
 studio "/reference/pyro_reference_leftArmShape.smd"
 blank
 }
-$bodygroup leftLeg{
+$bodygroup leftLeg {
 studio "/reference/pyro_reference_leftLegShape.smd"
 blank
 }
-$bodygroup rightArm{
+$bodygroup rightArm {
 studio "/reference/pyro_reference_rightArmShape.smd"
 blank
 }
-$bodygroup rightLeg{
+$bodygroup rightLeg {
 studio "/reference/pyro_reference_rightLegShape.smd"
 blank
 }
 
 $texturegroup skinfamilies {
-	{ "pyro_body_blue.vmt" "pyro_head_blue.vmt"}
-	{ "pyro_body_red.vmt" "pyro_head_red.vmt"}
-	{ "pyro_body_yellow.vmt" "pyro_head_yellow.vmt"}
-	{ "pyro_body_green.vmt" "pyro_head_green.vmt"}
+	{ "pyro_body_blue.vmt" "pyro_head_blue.vmt" }
+	{ "pyro_body_red.vmt" "pyro_head_red.vmt" }
+	{ "pyro_body_yellow.vmt" "pyro_head_yellow.vmt" }
+	{ "pyro_body_green.vmt" "pyro_head_green.vmt" }
 }
 
 $lod 10 {
