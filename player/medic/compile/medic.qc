@@ -1,35 +1,35 @@
-$modelname "player/medic/medic.mdl"
 $cd ".."
+$modelname "player/medic/medic.mdl"
 //$model studio "/reference/medic_reference.smd"
-$bodygroup torso{
+$bodygroup torso {
 studio "/reference/medic_reference_torsoShape.smd"
 blank
 }
-$bodygroup head{
+$bodygroup head {
 studio "/reference/medic_reference_headShape.smd"
 blank
 }
-$bodygroup leftArm{
+$bodygroup leftArm {
 studio "/reference/medic_reference_leftArmShape.smd"
 blank
 }
-$bodygroup leftLeg{
+$bodygroup leftLeg {
 studio "/reference/medic_reference_leftLegShape.smd"
 blank
 }
-$bodygroup rightArm{
+$bodygroup rightArm {
 studio "/reference/medic_reference_rightArmShape.smd"
 blank
 }
-$bodygroup rightLeg{
+$bodygroup rightLeg {
 studio "/reference/medic_reference_rightLegShape.smd"
 blank
 }
 $texturegroup skinfamilies {
-	{ "medic_body_blue.vmt" "medic_head_blue.vmt"}
-	{ "medic_body_red.vmt" "medic_head_red.vmt"}
-	{ "medic_body_yellow.vmt" "medic_head_yellow.vmt"}
-	{ "medic_body_green.vmt" "medic_head_green.vmt"}
+	{ "medic_body_blue.vmt" "medic_head_blue.vmt" }
+	{ "medic_body_red.vmt" "medic_head_red.vmt" }
+	{ "medic_body_yellow.vmt" "medic_head_yellow.vmt" }
+	{ "medic_body_green.vmt" "medic_head_green.vmt" }
 }
 
 $lod 10 {
