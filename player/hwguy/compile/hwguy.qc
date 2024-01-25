@@ -1,37 +1,36 @@
 $cd ".."
 $modelname "player/hwguy/hwguy.mdl"
 //$model studio "/reference/hwguy_reference.smd"
-
-$bodygroup torso{
+$bodygroup torso {
 studio "/reference/hwguy_reference_torsoShape.smd"
 blank
 }
-$bodygroup head{
+$bodygroup head {
 studio "/reference/hwguy_reference_headShape.smd"
 blank
 }
-$bodygroup leftArm{
+$bodygroup leftArm {
 studio "/reference/hwguy_reference_leftArmShape.smd"
 blank
 }
-$bodygroup leftLeg{
+$bodygroup leftLeg {
 studio "/reference/hwguy_reference_leftLegShape.smd"
 blank
 }
-$bodygroup rightArm{
+$bodygroup rightArm {
 studio "/reference/hwguy_reference_rightArmShape.smd"
 blank
 }
-$bodygroup rightLeg{
+$bodygroup rightLeg {
 studio "/reference/hwguy_reference_rightLegShape.smd"
 blank
 }
 
 $texturegroup skinfamilies {	//Where is textures for non-body? -BreakinBenny
-	{ "hwguy_body_blue.vmt" /*"hwguy_head_blue.vmt" "hwguy_acc_blue.vmt"*/}
-	{ "hwguy_body_red.vmt" /*"hwguy_head_red.vmt" "hwguy_acc_red.vmt"*/}
-	{ "hwguy_body_yellow.vmt" /*"hwguy_head_yellow.vmt" "hwguy_acc_yellow.vmt"*/}
-	{ "hwguy_body_green.vmt" /*"hwguy_head_green.vmt" "hwguy_acc_green.vmt"*/}
+	{ "hwguy_body_blue.vmt" }
+	{ "hwguy_body_red.vmt"  }
+	{ "hwguy_body_yellow.vmt" }
+	{ "hwguy_body_green.vmt" }
 }
 
 $lod 10 {
