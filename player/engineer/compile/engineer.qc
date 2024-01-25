@@ -1,35 +1,35 @@
 $cd ".."
 $modelname "player/engineer/engineer.mdl"
 //$model studio "/reference/engineer_reference.smd"
-$bodygroup torso{
+$bodygroup torso {
 studio "/reference/engineer_reference_torsoShape_new.smd"
 blank
 }
-$bodygroup head{
+$bodygroup head {
 studio "/reference/engineer_reference_headShape_new.smd"
 blank
 }
-$bodygroup leftArm{
+$bodygroup leftArm {
 studio "/reference/engineer_reference_leftArmShape_new.smd"
 blank
 }
-$bodygroup leftLeg{
+$bodygroup leftLeg {
 studio "/reference/engineer_reference_leftLegShape_new.smd"
 blank
 }
-$bodygroup rightArm{
+$bodygroup rightArm {
 studio "/reference/engineer_reference_rightArmShape_new.smd"
 blank
 }
-$bodygroup rightLeg{
+$bodygroup rightLeg {
 studio "/reference/engineer_reference_rightLegShape_new.smd"
 blank
 }
 $texturegroup skinfamilies {
-	{ "engineer_body_blue.vmt" "engineer_head.vmt" "engineer_acc_blue.vmt"}
-	{ "engineer_body_red.vmt" "engineer_head.vmt" "engineer_acc_red.vmt"}
-	{ "engineer_body_yellow.vmt" "engineer_head.vmt" "engineer_acc_yellow.vmt"}
-	{ "engineer_body_green.vmt" "engineer_head.vmt" "engineer_acc_green.vmt"}
+	{ "engineer_body_blue.vmt" "engineer_acc_blue.vmt"}
+	{ "engineer_body_red.vmt" "engineer_acc_red.vmt"}
+	{ "engineer_body_yellow.vmt" "engineer_acc_yellow.vmt"}
+	{ "engineer_body_green.vmt" "engineer_acc_green.vmt"}
 }
 
 $lod 10 {
