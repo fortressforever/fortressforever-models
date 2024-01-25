@@ -1,27 +1,27 @@
 $cd ".."
 $modelname "player/soldier/soldier.mdl"
 //$model studio "/reference/soldier_reference.smd"
-$bodygroup torso{
+$bodygroup torso {
 studio "/reference/soldier_reference_torsoShape.smd"
 blank
 }
-$bodygroup head{
+$bodygroup head {
 studio "/reference/soldier_reference_headShape.smd"
 blank
 }
-$bodygroup leftArm{
+$bodygroup leftArm {
 studio "/reference/soldier_reference_leftArmShape.smd"
 blank
 }
-$bodygroup leftLeg{
+$bodygroup leftLeg {
 studio "/reference/soldier_reference_leftLegShape.smd"
 blank
 }
-$bodygroup rightArm{
+$bodygroup rightArm {
 studio "/reference/soldier_reference_rightArmShape.smd"
 blank
 }
-$bodygroup rightLeg{
+$bodygroup rightLeg {
 studio "/reference/soldier_reference_rightLegShape.smd"
 blank
 }
@@ -114,7 +114,8 @@ $lod 70 {
 }
 
 /*
-$shadowlod {	//Thus far there's only LOD2... Oh well. -BreakinBenny
+$shadowlod
+{	//Thus far there's only LOD2... Oh well. -BreakinBenny
 	//replacemodel "/reference/soldier_reference_torsoShape.smd" "/reference/soldier_lod2_torsoShape.smd"
  	//replacemodel "/reference/soldier_reference_headShape.smd" "/reference/soldier_lod2_headShape.smd"
  	//replacemodel "/reference/soldier_reference_leftArmShape.smd" "/reference/soldier_lod2_leftArmShape.smd"
