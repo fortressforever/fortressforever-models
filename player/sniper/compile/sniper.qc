@@ -2,36 +2,36 @@ $cd ".."
 $modelname "player/sniper/sniper.mdl"
 //$model studio "/reference/sniper_reference.smd"
 
-$bodygroup torso{
+$bodygroup torso {
 studio "/reference/sniper_reference_torsoShape.smd"
 blank
 }
-$bodygroup head{
+$bodygroup head {
 studio "/reference/sniper_reference_headShape.smd"
 blank
 }
-$bodygroup leftArm{
+$bodygroup leftArm {
 studio "/reference/sniper_reference_leftArmShape.smd"
 blank
 }
-$bodygroup leftLeg{
+$bodygroup leftLeg {
 studio "/reference/sniper_reference_leftLegShape.smd"
 blank
 }
-$bodygroup rightArm{
+$bodygroup rightArm {
 studio "/reference/sniper_reference_rightArmShape.smd"
 blank
 }
-$bodygroup rightLeg{
+$bodygroup rightLeg {
 studio "/reference/sniper_reference_rightLegShape.smd"
 blank
 }
 
 $texturegroup skinfamilies {
-	{ "sniper_body_blue.vmt" "sniper_head_blue.vmt"}
-	{ "sniper_body_red.vmt" "sniper_head_red.vmt"}
-	{ "sniper_body_yellow.vmt" "sniper_head_yellow.vmt"}
-	{ "sniper_body_green.vmt" "sniper_head_green.vmt"}
+	{ "sniper_body_blue.vmt" "sniper_head_blue.vmt" }
+	{ "sniper_body_red.vmt" "sniper_head_red.vmt" }
+	{ "sniper_body_yellow.vmt" "sniper_head_yellow.vmt" }
+	{ "sniper_body_green.vmt" "sniper_head_green.vmt" }
 }
 
 $lod 10 {
@@ -63,7 +63,8 @@ $lod 30 {
 	replacebone "ffSkel_Spine" "ffSkel_spine2"
 }
 
-$shadowlod {
+$shadowlod
+{
 	replacemodel "/reference/sniper_reference_torsoShape.smd" "/reference/LOD/sniper_reference_torsoShape_lod2.smd"
  	replacemodel "/reference/sniper_reference_headShape.smd" "/reference/LOD/sniper_reference_headShape_lod2.smd"
  	replacemodel "/reference/sniper_reference_leftArmShape.smd" "/reference/LOD/sniper_reference_leftArmShape_lod2.smd"
@@ -80,8 +81,8 @@ $attachment "attach_rightLeg" "ffSkel_RightUpLeg" 0 0 0 rotate 0 0 0
 $attachment "anim_attachment_RH" "ffSkel_RightHand" 0 0 0 rotate 0 0 0
 $attachment "anim_attachment_LH" "ffSkel_LeftHand" 0 0 0 rotate 0 0 0
 $attachment "ffAtt_flag" "ffSkel_Spine3" 5 3 0 rotate 0 0 0
-/*
-{
+
+/* {
 	flexfile "/reference/sniper_decap.vta"
 	flex "decap" frame 10
 	flexcontroller "phoneme" "decap" "_range" 0 1
