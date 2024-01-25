@@ -1,35 +1,35 @@
 $cd "..\"
 $modelname "player/scout/scout.mdl"
 //$model studio "/reference/scout_reference.smd"
-$bodygroup torso{
+$bodygroup torso {
 studio "/reference/scout_reference_torsoShape.smd"
 blank
 }
-$bodygroup head{
+$bodygroup head {
 studio "/reference/scout_reference_headShape.smd"
 blank
 }
-$bodygroup leftArm{
+$bodygroup leftArm {
 studio "/reference/scout_reference_leftArmShape.smd"
 blank
 }
-$bodygroup leftLeg{
+$bodygroup leftLeg {
 studio "/reference/scout_reference_leftLegShape.smd"
 blank
 }
-$bodygroup rightArm{
+$bodygroup rightArm {
 studio "/reference/scout_reference_rightArmShape.smd"
 blank
 }
-$bodygroup rightLeg{
+$bodygroup rightLeg {
 studio "/reference/scout_reference_rightLegShape.smd"
 blank
 }
 $texturegroup skinfamilies {	//The head and accessory meshes might retain the default textures... -BreakinBenny
-	{ "scout_body_blue.vmt" /*"scout_head_blue.vmt" "scout_accessories.vmt"*/}
-	{ "scout_body_red.vmt" /*"scout_head_red.vmt" "scout_accessories.vmt"*/}
-	{ "scout_body_yellow.vmt" /*"scout_head_yellow.vmt" "scout_accessories.vmt"*/}
-	{ "scout_body_green.vmt" /*"scout_head_green.vmt" "scout_accessories.vmt"*/}
+	{ "scout_body_blue.vmt" }
+	{ "scout_body_red.vmt" }
+	{ "scout_body_yellow.vmt" }
+	{ "scout_body_green.vmt" }
 }
 
 $lod 10 {
@@ -94,7 +94,8 @@ $lod 50 {
 	replacebone "ffSkel_Spine" "ffSkel_spine2"
 }
 
-$shadowlod {
+$shadowlod
+{
 	replacemodel "/reference/scout_reference_torsoShape.smd" "/reference/LOD/scout_lod4_torsoShape.smd"
 /*	replacemodel "/reference/scout_reference_headShape.smd" "/reference/scout_reference_head_lodShape5.smd"
  	replacemodel "/reference/scout_reference_leftArmShape.smd" "/reference/scout_reference_leftArm_lodShape5.smd"
