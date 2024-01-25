@@ -1,37 +1,36 @@
 $cd ".."
 $modelname "player/spy/spy.mdl"
 //$model studio "/reference/spy_reference.smd"
-
-$bodygroup torso{
+$bodygroup torso {
 studio "/reference/spy_reference_torsoShape.smd"
 blank
 }
-$bodygroup head{
+$bodygroup head {
 studio "/reference/spy_reference_headShape.smd"
 blank
 }
-$bodygroup leftArm{
+$bodygroup leftArm {
 studio "/reference/spy_reference_leftArmShape.smd"
 blank
 }
-$bodygroup leftLeg{
+$bodygroup leftLeg {
 studio "/reference/spy_reference_leftLegShape.smd"
 blank
 }
-$bodygroup rightArm{
+$bodygroup rightArm {
 studio "/reference/spy_reference_rightArmShape.smd"
 blank
 }
-$bodygroup rightLeg{
+$bodygroup rightLeg {
 studio "/reference/spy_reference_rightLegShape.smd"
 blank
 }
 
 $texturegroup skinfamilies {
-	{ "spy_body_blue.vmt" "spy_head_blue.vmt" "spy_acc_blue.vmt"}
-	{ "spy_body_red.vmt" "spy_head_red.vmt" "spy_acc_red.vmt"}
+	{ "spy_body_blue.vmt" "spy_head_blue.vmt" "spy_acc_blue.vmt" }
+	{ "spy_body_red.vmt" "spy_head_red.vmt" "spy_acc_red.vmt" }
 	{ "spy_body_yellow.vmt" "spy_head_yellow.vmt" "spy_acc_yellow.vmt" }
-	{ "spy_body_green.vmt" "spy_head_green.vmt" "spy_acc_green.vmt"}
+	{ "spy_body_green.vmt" "spy_head_green.vmt" "spy_acc_green.vmt" }
 }
 
 $lod 10 {
@@ -99,7 +98,8 @@ $lod 50 {
 	replacebone "ffSkel_Spine" "ffSkel_spine2"
 }
 
-$shadowlod {
+$shadowlod
+{
 	replacemodel "/reference/spy_reference_torsoShape.smd" "/reference/LOD/spy_lod4_torsoShape.smd"
 /*
 	replacemodel "/reference/spy_reference_headShape.smd" "/reference/spy_reference_head_lodShape5.smd"
